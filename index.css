@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background: #1F2937;
+    color: white;
+    margin-top: 40px;
+}
+
+.container {
+    width: 445px;
+    margin: 0 auto 0 auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-bottom: 1px solid #2F3E53;
+    padding-bottom: 30px;
+}
+
+#title {
+    margin-bottom: 0px
+}
+#paragraph {
+    color: #D5D4D8;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+#green-style {
+    color: #4ADF86;
+}
+
+#password-btn {
+   margin-top: 24px;
+    color: #FFFFFF;
+    background: #10B981;
+    border: none;
+    padding: 9PX 15PX;
+    border-radius: 5px;
+}
+
+.generate-btn {
+    text-align: center;
+    font-size: 15px;
+    color: #55F991;
+    background: #273549;
+    border: none;
+    padding-top: 10px;
+    border-radius: 5px;
+    width: 210px;
+    height: 30px;
+    
+}
+
+.generated-section {
+    margin-top: 30px;
+    width: 445px;
+    display: flex;
+    justify-content: space-between;
+}
